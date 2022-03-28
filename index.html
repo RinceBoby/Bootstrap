@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap · The most popular HTML, CSS, and JS library in the world.</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Body-->
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7952B3; height: 4rem;">
+      <div class="container">
+        <img class="z-index 1" style="width: 2.5em; " src="images/1-Icon.png" alt="Img not found..">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="background-color: #7952B3;" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-white" aria-current="page" href="#">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-white" aria-current="page" href="#">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-white" aria-current="page" href="#">Icons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-white" aria-current="page" href="#">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">Blog</a>
+            </li>
+          </ul>
+          <div>
+            <i class="bi bi-github text-light p-2"></i>
+            <i class="bi bi-twitter text-light p-2"></i>
+            <i class="bi bi-slack text-light p-2"></i>
+            <i class="bi bi-arrow-clockwise text-light p-2"></i>
+          </div>
+          <div class="d-flex">
+            <button class="btn btn-outline-warning fw-bold nav_button" type="submit">Download</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Start -->
+
+  <main>
+    <div class="container">
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-lg-7 col-md-9 col-sm-12 ">
+          <h1 class="mt-5 build">Build fast, responsive <br> sites with Bootstrap</h1>
+          <p class="main-p">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+            world’s most popular front-end
+            open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt
+            components, and powerful JavaScript plugins.</p>
+          <!-- <button type="button" class="btn btn-primary ms-5 btn-lg start-button">Get Started</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg ">Download</button> -->
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary" type="button" style="font-size: 1.25em; padding: .8rem 2rem;">Get Started</button>
+            <button class="btn btn-outline-secondary" type="button" style="font-size: 1.25em; padding: .8rem 2rem;">Download</button>
+          </div>
+          <p class="">Currently <span class="fw-bold">v5.1.3</span> · <a href="#">v4.6.x docs</a> · <a href="#">All
+              releases</a>
+          </p>
+        </div>
+        <div class="col-lg-5 col-md-3 col-sm-12 mt-5">
+          <img class="main-img"
+            src="images/Bootstrap.png"
+            alt="image not found..">
+        </div>
+      </div>
+    </div>
+    <!--Home End-->
+
+    <!-- Installation Start -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <img style="width: 4em;" src="images/LandG.jpg" alt="">
+          <h2 class="fw-normal" style="font-size: 3rem;">Installation</h2>
+          <p class="fw-normal" style="font-size: 1.25rem;">Install Bootstrap’s source Sass and JavaScript files via npm,
+            Composer, or Meteor.</p>
+          <p>Package managed installs don’t include documentation or our full build scripts. You can also <a
+              href="#">use our npm
+              template repo</a> to quickly generate a Bootstrap project via npm.</p>
+          <button type="button" class="btn btn-outline-primary" style="font-size: 1.25em; padding: .8rem 2rem;">Read Installation Docs</button>
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-sm-12 pt-5">
+          <div class="bg-light py-2">
+            <div class="copy">
+              <button type="button" class="btn btn-outline-primary "
+                style="float: right; width: 3rem; font-size: .5em;">Copy</button>
+            </div>
+            <br>
+            <span class="c p-5"
+              style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;"><span
+                style="color: blue;">$</span> npm install bootstrap</span>
+            <p><span></span></p>
+          </div>
+          <br>
+          <div class="bg-light py-2">
+            <div class="copy">
+              <button type="button" class="btn btn-outline-primary "
+                style="float: right; width: 3rem; font-size: .5em;">Copy</button>
+            </div>
+            <br>
+            <span class="c p-5"
+              style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;"><span
+                style="color: blue;">$</span> gem install bootstrap -v 5.1.3</span>
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Installation End -->
+
+    <!-- jsDelivr Start -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <img style="width: 4em;" src="images/Cloud.jpg" alt="">
+          <h2 class="fw-normal" style="font-size: 3rem;">jsDelivr</h2>
+          <p class="fw-normal" style="font-size: 1.25rem;">When you only need to include Bootstrap’s compiled CSS or JS,
+            you can use <a href="#">jsDelivr</a> </p>
+          <p>See it in action with our simple <a href="#">starter template</a>, or <a href="#">browse the examples</a>
+            to jumpstart your next project.
+            You can also choose to include Popper and our JS <a href="#">separately</a>.</p>
+          <button type="button" class="btn btn-outline-primary" style="font-size: 1.25em; padding: .8rem 2rem;">Explore the docs</button>
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-sm-12">
+          <div class=" py-2">
+            <div class="bg-light" >
+              <div class="copy">
+                <button type="button" class="btn btn-outline-primary "
+                  style="float: right; width: 3rem; font-size: .5em;">Copy</button>
+              </div>
+              <br>
+              <span class="c p-5"
+                style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;"><span
+                  style="color: blue;">$</span> &lt;!-- CSS only --&gt;</span>
+                  <br>
+              <div class="scroll"
+                style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;">
+                <span>&lt;</span>
+                <span>link</span>
+                <span>href=</span>
+                <span class="p-5">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dit/css/bootstrap.min.css&gt;</span>
+              </div>
+            </div>
+            <br>
+
+            <div class="bg-light mt-4">
+              <div class="copy ">
+                <button type="button" class="btn btn-outline-primary "
+                  style="float: right; width: 3rem; font-size: .5em;">Copy</button>
+              </div>
+              <br>
+              <span class="c p-5"
+                style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;"><span
+                  style="color: blue;">$</span> &lt;-- JavaScript Bundle with Popper --&gt;</span>
+              <div class="scroll"
+                style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; font-size: 14px;">
+                <span>&lt;</span>
+                <span>link</span>
+                <span>href=</span>
+                <span class="p-5">"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dit/css/bootstrap.min.css&gt;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- jsDeliver End -->
+
+      <!-- Bootstrap Icons Start -->
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <img style="width: 4em;" src="images/Bt Icons.jpg" alt="">
+            <h2 class="fw-normal" style="font-size: 3rem;">Bootstrap Icons</h2>
+            <p class="fw-normal" style="font-size: 1.25rem;">For the first time ever, Bootstrap has its own open source
+              SVG icon library, designed to work best with our
+              components and documentation.</p>
+            <p>Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project.
+              They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with
+              CSS.</p>
+            <button type="button" class="btn btn-outline-primary" style="font-size: 1.25em; padding: .8rem 2rem;">Get Bootstrap Icons</button>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <img class="img-fluid mt-3 mx-auto" style="width: 700px; height: 425px;" src="images/bootstrap-icons.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Bootstrap Icons End -->
+
+      <!-- Official Themes Start -->
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <img style="width: 4em;" src="images/Themes.jpg" alt="">
+            <h2 class="fw-normal" style="font-size: 3rem;">Official Themes</h2>
+            <p class="fw-normal" style="font-size: 1.25rem;">Take Bootstrap to the next level with premium themes from
+              the
+              <a href="#">official Bootstrap Themes
+                marketplace</a>.
+            </p>
+            <p>Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins,
+              documentation, and powerful build tools.</p>
+            <button type="button" class="btn btn-outline-primary" style="font-size: 1.25em; padding: .8rem 2rem;">Browse Themes</button>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <img class="img-fluid mt-3 mx-auto" style="width: 700px; height: 425px;" src="images/bootstrap-themes.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Official Themes End -->
+  </main>
+
+  <!--Footer Start-->
+
+  <footer>
+    <div class="container-fluid mt-5 bg-light foot-ds">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12 py-5">
+            <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="#"><img
+                src="images/bootstrap-5-1.jpg"
+                alt=""><span class="boot fs-5 ms-2">Bootstrap</span></a>
+            <p class="mb-2" style="font-size: 14px;">Designed and built with all the love in the world by the <a
+                href="#">Bootstrap team</a> with the help of our
+              <a href="#">contributors</a>.
+            </p>
+            <p class="mb-2" style="font-size: 14px;">Code licensed MIT, docs <a href="#">CC BY 3.0</a>.</p>
+            <p style="font-size: 14px;">Currently v5.1.3.</p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+            <ul class="list-style ms-5">
+              <h5 class="mt-5 ">Links</h5>
+              <li class="mb-2"><a href="#">Home</a></li>
+              <li class="mb-2"><a href="#">Docs</a></li>
+              <li class="mb-2"><a href="#">Examples</a></li>
+              <li class="mb-2"><a href="#">Themes</a></li>
+              <li class="mb-2"><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+
+            <ul class="list-style ms-3">
+              <h5 class="mt-5">Guides</h5>
+              <li class="mb-2"><a href="#">Getting Started</a></li>
+              <li class="mb-2"><a href="#">Starter template</a></li>
+              <li class="mb-2"><a href="#">Webpack</a></li>
+              <li class="mb-2"><a href="#">Parcel</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+
+            <ul class="list-style ms-5">
+              <h5 class="mt-5 ">Projects</h5>
+              <li class="mb-2"><a href="#">Bootstrap 5</a></li>
+              <li class="mb-2"><a href="#">Bootstrap 4</a></li>
+              <li class="mb-2"><a href="#">Icons</a></li>
+              <li class="mb-2"><a href="#">RFS</a></li>
+              <li class="mb-2"><a href="#">npm starter</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <ul class="list-style ms-5">
+              <h5 class="mt-5 ">Community</h5>
+              <li class="mb-2"><a href="#">Issues</a></li>
+              <li class="mb-2"><a href="#">Discussions</a></li>
+              <li class="mb-2"><a href="#">Corporate sponsors</a></li>
+              <li class="mb-2"><a href="#">Open Collective</a></li>
+              <li class="mb-2"><a href="#">Slack</a></li>
+              <li class="mb-2"><a href="#">Stack Overflow</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer End -->
+  <!-- JavaScript Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

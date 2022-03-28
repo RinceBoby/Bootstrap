@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    /* text-decoration: none; */
+   color: black;
+    list-style: none;
+}
+.nav_button:hover{
+    color: black;
+}
+.build{
+    font-size: 4rem;
+    
+}
+.start-button{
+
+}
+.main-p{
+    font-size: 25px;
+    
+}
+.main-img{
+    width: 100%;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.list-style li{
+    list-style: none;
+    
+}
+.foot-ds ul a{
+    text-decoration: none;
+}
+.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    width: auto;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+   
+}
